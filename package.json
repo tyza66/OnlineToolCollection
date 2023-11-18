@@ -1,0 +1,29 @@
+{
+  "name": "正在加载中...",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron .",
+    "package": "electron-packager . OnlineToolCollection --platform=win32 --arch=x64 --icon=favicon.ico --out=./out --asar --app-version=0.0.1 --overwrite --ignore=node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyza66/OnlineToolCollection.git"
+  },
+  "author": "tyza66",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyza66/OnlineToolCollection/issues"
+  },
+  "homepage": "https://github.com/tyza66/OnlineToolCollection#readme",
+  "devDependencies": {
+    "electron": "^19.0.4",
+    "electron-packager": "^15.5.2"
+  },
+  "dependencies": {
+    "electron": "^19.0.4",
+    "js-export-excel": "^1.1.4",
+    "vue-json-excel": "^0.3.0"
+  }
+}
