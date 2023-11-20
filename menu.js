@@ -30,7 +30,7 @@ module.exports = function (appInfo) {
     for (var i = 0; i < result.length; i++) {
         var tool = result[i].split(',');
         var name = tool[0];
-        var url = tool[1];
+        let url = tool[1]; // 使用let关键字声明url变量
         tools.push({ label: name, click: () => { appInfo.mainWindow.loadURL(url) } });
     }
     if(tools.length==0){

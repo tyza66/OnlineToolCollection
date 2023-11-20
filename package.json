@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "electron .",
-    "package": "electron-packager . OnlineToolCollection --platform=win32 --arch=x64 --icon=favicon.ico --out=./out --asar --app-version=0.0.1 --overwrite --ignore=node_modules"
+    "package": "electron-packager . OnlineToolCollection --platform=win32 --arch=x64 --icon=favicon.ico --out=./out --asar --app-version=0.0.1 --overwrite --ignore=node_modules --download.mirrorOptions.mirror=https://npm.taobao.org/mirrors/electron/"
   },
   "repository": {
     "type": "git",
