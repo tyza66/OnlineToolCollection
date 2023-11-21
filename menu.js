@@ -47,6 +47,12 @@ module.exports = function (appInfo) {
             label: '页面',
             submenu: [
                 {
+                    label: '返回上级',
+                    click: () => {
+                        appInfo.mainWindow.webContents.goBack();
+                    }
+                },
+                {
                     label: '退出',
                     click: () => {
                         appInfo.app.exit();
